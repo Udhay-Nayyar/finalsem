@@ -1,0 +1,218 @@
+
+ @media screen and ( orientation : landscape) {
+    .head1 span{
+        margin-left: 15px;
+    }
+    .head3{
+        position: relative;
+        right: 80px;
+        
+    }
+    .head3 .bi-search{
+        position: absolute;
+        bottom: 40px;
+        left: 180px;
+    }
+    .head30{
+        position: relative;
+        bottom: 45px;
+        left: 140px;
+    }
+    .head2nav{
+        margin: 20px;
+    }
+    .head1-2{
+        position: relative;
+        top: 6px;
+        background-color: aqua;
+        color: rgb(95, 95, 234);
+    }
+    /* .bi-vinyl-fill{
+        position: relative;
+        left: 10px;
+    } */
+    .innertext{
+        position: relative;
+        right: 8px;
+    }
+    .box{
+        border: 1px solid black;
+        height: 100px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    .bi-tv,.bi-person,.bi-person-raised-hand,.bi-patch-check-fill{
+        font-size: 90px;
+        position: relative;
+        bottom: 18px;
+        left: 20px;
+        padding: 8px;
+    
+    }
+    .contentone{
+        position: relative;
+        bottom: 120px;
+        left: 150px;
+    }
+    .firstpartofSection{
+        /* display: flex;
+        justify-content: space-between;
+        margin-top: 120px; */
+        display: flex;
+        border: 1px solid transparent;
+        margin-left: 10px;
+        padding: 5px;
+    
+        
+    }
+    .box{
+        margin-left:36px;
+    }
+    .sectionpartTwo{
+        margin-top: 40px;
+    }
+    .buttonkagrp{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        /* padding: 100px; */
+        color: rgb(95, 95, 234);
+        margin-top: 50px;
+    }
+    /* .buttonkagrp input{
+        margin: 10px;
+    } */
+     .imgcard{
+        width: 315px;
+     }
+     .cardsblock1,.cardsblock2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin: 30px;
+     }
+     footer{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        margin-left: 30px;
+     }
+     footer div div{
+        margin-top: 20px;
+     }
+ }
+ @media screen and (orientation : portrait) {
+    .firstmid{
+        display: none;
+    }
+    .head1 span{
+        margin-left: 15px;
+    }
+    .head3{
+        position: relative;
+        right: 80px;
+        
+    }
+    .head3 .bi-search{
+        position: absolute;
+        bottom: 40px;
+        left: 180px;
+    }
+    .head30{
+        position: relative;
+        bottom: px;
+        left: 20px;
+    }
+    .head2nav{
+        margin: 20px;
+    }
+    .firdt{
+        display: none;
+    }
+    .head1-2{
+        position: relative;
+        top: 6px;
+        background-color: aqua;
+        color: rgb(95, 95, 234);
+    }
+    /* .bi-vinyl-fill{
+        position: relative;
+        left: 10px;
+    } */
+    .innertext{
+        position: relative;
+        right: 8px;
+    }
+    .box{
+        border: 1px solid black;
+        height: 100px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    .bi-tv,.bi-person,.bi-person-raised-hand,.bi-patch-check-fill{
+        font-size: 90px;
+        position: relative;
+        bottom: 18px;
+        left: 20px;
+        padding: 8px;
+    
+    }
+    .contentone{
+        position: relative;
+        bottom: 120px;
+        left: 150px;
+    }
+    .firstpartofSection{
+        /* display: flex;
+        justify-content: space-between;
+        margin-top: 120px; */
+        display: flex;
+        flex-direction: column;
+        border: 1px solid transparent;
+        padding: 5px;
+    
+        
+    }
+    .box{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .sectionpartTwo{
+        margin-top: 40px;
+    }
+    .buttonkagrp{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        /* padding: 100px; */
+        color: rgb(95, 95, 234);
+        margin-top: 50px;
+    }
+    /* .buttonkagrp input{
+        margin: 10px;
+    } */
+     .imgcard{
+        width: 315px;
+     }
+     .cardsblock1,.cardsblock2{
+        position: relative;
+        left: 80px;
+     }
+     footer{
+        columns: 2;
+        column-gap: 10px;
+        margin-top: 80px;
+     }
+     footer div div{
+        margin-top: 20px;
+     }
+     .card{
+        margin-top: 30px;
+     }
+     .head3{
+        display: none;
+     }
+ }
