@@ -199,7 +199,8 @@
      }
      .cardsblock1,.cardsblock2{
         position: relative;
-        left: 80px;
+        left: auto;
+        right: auto;
      }
      footer{
         columns: 2;
